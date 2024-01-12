@@ -75,3 +75,7 @@ For exaple
 }]
 ```
 5. Stop the server with Ctr+C once you finished work with it
+
+# Download the test datasets
+1. Give rights for the file to be able to download chmod u+x ./download_archives_script.sh
+2. Run the file: ./download_archives_script.sh 
