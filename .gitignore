@@ -1,0 +1,33 @@
+# Virtual environments
+venv/
+env/
+*.env/
+
+# Compiled Python files
+*.pyc
+*.pyo
+__pycache__/
+
+# macOS
+.DS_Store
+
+# PyCharm files
+.idea/
+
+# VSCode files
+.vscode/
+
+# Jupyter Notebook files
+.ipynb_checkpoints/
+
+# Ignore the "dist" directory if it exists
+dist/
+
+# Ignore the "build" directory and the "egg-info" directory
+build/
+*.egg-info/
+archives/
+bin/
+lib/
+share/
+tmp/

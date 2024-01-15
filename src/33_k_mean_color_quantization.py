@@ -35,6 +35,4 @@ print('quantized_image: ', quantized_image)
 plt.figure(figsize=(6,6),dpi=200)
 plt.imshow(quantized_image)
 
-
-
 plt.show()
