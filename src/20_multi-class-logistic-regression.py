@@ -114,12 +114,4 @@ print(classification_report(y_test,y_pred))
 # Evaluating Curves and AUC
 # 
 
-def plot_multiclass_roc(clf, X_test, y_test, n_classes, figsize=(5,5)):
-    y_score = clf.decision_function(X_test)
-
-    # structures
-    fpr = dict()
-    tpr = dict()
-    roc_auc = dict()
-
 plot_multiclass_roc_func(grid_model, scaled_X_test, y_test, n_classes=3, figsize=(16, 10))

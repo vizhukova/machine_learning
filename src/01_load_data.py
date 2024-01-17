@@ -106,7 +106,7 @@ print('Show length of rows and columns: ',  dataframe.shape)
 print('Descriptive statistics for any numeric columns: ', dataframe.describe())
 print('Select first row: ', dataframe.iloc[0])
 print('Select the second, third, and fourth rows: ', dataframe.iloc[1:4])
-print('Select three rows: ', ataframe.iloc[:4])
+print('Select three rows: ', dataframe.iloc[:4])
 
 dataframe = dataframe.set_index(dataframe['Name'])
 # Show row

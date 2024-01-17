@@ -325,7 +325,7 @@ my_image = "photo_2024-01-06_17-55-28.jpg"
 
 logistic_regression_model = model(train_set_x, train_set_y, test_set_x, test_set_y, num_iterations=2000, learning_rate=0.005, print_cost=True)
 
-# We preprocess the image to fit your algorithm.
+# Preprocess the image to fit your algorithm.
 fname = "images/kitties/" + my_image
 image = np.array(Image.open(fname).resize((num_px, num_px)))
 plt.imshow(image)

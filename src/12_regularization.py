@@ -110,7 +110,7 @@ print('coefficients: ', lasso_cv_model.coef_)
 # considering only on 2 features but it did come with the cost of worst performing modes based on MAE RMSE
 
 #
-# Elastic Net
+# 9
 #
 
 elastic_model = ElasticNetCV(l1_ratio=[.1, .5, .7,.9, .95, .99, 1],tol=0.01)

@@ -76,8 +76,8 @@ print(arr)
 arr_copy = arr.copy()
 # Now all changes would be only insight the arr_copy
 arr_copy[:] = 100
-console.log(arr_copy)
-console.log(arr)
+print(arr_copy)
+print(arr)
 
 array_2d = [[5, 10, 15], [20, 25, 30], [35, 40, 45]]
 # Takes two first rows and columns starting from 1
