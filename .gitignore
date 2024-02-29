@@ -31,5 +31,7 @@ bin/
 lib/
 share/
 tmp/
+__pycache__/
 
 *.joblib
+*.html
